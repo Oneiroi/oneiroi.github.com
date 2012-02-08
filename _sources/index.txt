@@ -1,5 +1,5 @@
-oneiroi.github.psycle.com
-=========================
+oneiroi.github.com
+==================
 
 .. toctree::
     david_busby
