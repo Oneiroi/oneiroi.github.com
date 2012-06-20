@@ -64,11 +64,12 @@ Last uodated 08/02/2012 (Incomplete)::
     |             |     `-- percona-toolkit
     |             |-- cut / awk / lsof / type / ldd / man (And generally the majority of tools too numerous to list here)
     |             |-- Openstack
-    |                  |-- Nova
-    |                  |-- Glance
-    |                  |-- Keystone
-    |                  |-- Swift
-    |                  `-- Horizon
+    |             |    |-- Nova
+    |             |    |-- Glance
+    |             |    |-- Keystone
+    |             |    |-- Swift
+    |             |    `-- Horizon
+    |             | -- ldirectord
     |-- Numerous programming languages.
     |        |-- Python
     |        |    |-- Multiprocessing
@@ -99,9 +100,12 @@ Last uodated 08/02/2012 (Incomplete)::
     |        |-- Ruby
     |        |    |-- Some experimentation with parallel programming
     |        |    `-- Some extension of MetaSploit
+    |        |-- Markdown
+    |             `- used for blogging via jekyll + octopress
     |-- Pentesting (At this time still reading into a lot of this)
     |        |-- PTES
     |        |-- Metasploit
+    |        |    | Successfully gave Tomcat 5 pentesting demo. (default users.xml)
     |        |    `-- Some extension writing experience
     |        |-- Sql injection
     |        |-- Maltego
@@ -109,6 +113,7 @@ Last uodated 08/02/2012 (Incomplete)::
     |        |-- SQLMap
     |        |-- Skipfish
     |        |-- Backtrack
+    |        |-- dsniff
     |        `-- Password hashing / lookups / Pass the hash.
     |-- Opensource contributions
         |-- Majority of source code can be found here https://github.com/Oneiroi
