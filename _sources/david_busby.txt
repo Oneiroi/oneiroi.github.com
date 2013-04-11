@@ -14,7 +14,7 @@ SYNOPSIS
 DESCRIPTION
 ===========
 
-Devops / Systems Administrator.
+Devops / Systems Administrator / Remote DBA
 
 EXAMPLES
 ========
@@ -22,7 +22,7 @@ EXAMPLES
 Skills Tree
 -----------
 
-Last uodated 08/02/2012 (Incomplete)::
+Last updated 2013-04-11 (Incomplete)::
 
     |-- Systems Administration
     |        |-- Subverison
@@ -61,6 +61,8 @@ Last uodated 08/02/2012 (Incomplete)::
     |             |-- system tap
     |             |     `-- wrote system tap extension to record semaphore lock counts on a mySQL system.
     |             |-- percona
+    |             |     |-- Percona-Server
+    |             |     |-- Percona-XtraDB cluster
     |             |     `-- percona-toolkit
     |             |-- cut / awk / lsof / type / ldd / man (And generally the majority of tools too numerous to list here)
     |             |-- Openstack
@@ -124,6 +126,6 @@ SEE ALSO
 ========
 
 * Email: <d.busby@saiweb.co.uk> / <oneiroi@fedoraproject.org>
-* Blog: http://saiweb.co.uk/
+* Blog: http://blog.oneiroi.co.uk/ (formerly: http://saiweb.co.uk/)
 
 
