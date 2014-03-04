@@ -34,6 +34,12 @@ Last updated 2013-04-11 (Incomplete)::
     |        |    |-- gitosis
     |        |    |-- github
     |        |    `-- Migration from subversion
+    |        |-- Devops
+    |        |   |-- Vagrant
+    |        |   |-- Docker
+    |        |   |-- Ansible
+    |        |   |-- puppet
+    |        |   `-- Jenkins 
     |        |-- RHEL / CentOS / Fedora / Scientific Linux Administration
     |             |-- RPM Packaging (spec authoring, mock builds etc ..)
     |             |-- EPEL Contributor for Openstack packages
@@ -115,6 +121,7 @@ Last updated 2013-04-11 (Incomplete)::
     |-- Opensource contributions
         |-- Majority of source code can be found here https://github.com/Oneiroi
         |-- Upstream commits
+             |-- Ansible
              |-- Boxgrinder
              |-- Libcloud
              `-- EPEL Openstack
