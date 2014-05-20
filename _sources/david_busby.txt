@@ -14,7 +14,7 @@ SYNOPSIS
 DESCRIPTION
 ===========
 
-Devops / Systems Administrator / Remote DBA
+Security Lead / Sysadmin.
 
 EXAMPLES
 ========
@@ -22,9 +22,14 @@ EXAMPLES
 Skills Tree
 -----------
 
-Last updated 2013-04-11 (Incomplete)::
+Last updated 2014-05-20 (Incomplete)::
 
+     
     |-- Systems Administration
+    |        |-- Logstash
+    |        |-- Kibana
+    |        |-- Elastic search
+    |        |-- Suricata
     |        |-- Subverison
     |        |    |-- Administration
     |        |    |-- Backup strategies
@@ -34,12 +39,6 @@ Last updated 2013-04-11 (Incomplete)::
     |        |    |-- gitosis
     |        |    |-- github
     |        |    `-- Migration from subversion
-    |        |-- Devops
-    |        |   |-- Vagrant
-    |        |   |-- Docker
-    |        |   |-- Ansible
-    |        |   |-- puppet
-    |        |   `-- Jenkins 
     |        |-- RHEL / CentOS / Fedora / Scientific Linux Administration
     |             |-- RPM Packaging (spec authoring, mock builds etc ..)
     |             |-- EPEL Contributor for Openstack packages
@@ -67,22 +66,23 @@ Last updated 2013-04-11 (Incomplete)::
     |             |-- system tap
     |             |     `-- wrote system tap extension to record semaphore lock counts on a mySQL system.
     |             |-- percona
-    |             |     |-- Percona-Server
-    |             |     |-- Percona-XtraDB cluster
     |             |     `-- percona-toolkit
     |             |-- cut / awk / lsof / type / ldd / man (And generally the majority of tools too numerous to list here)
     |             |-- Openstack
-    |                  |-- Nova
-    |                  |-- Glance
-    |                  |-- Keystone
-    |                  |-- Swift
-    |                  `-- Horizon
+    |             |    |-- Nova
+    |             |    |-- Glance
+    |             |    |-- Keystone
+    |             |    |-- Swift
+    |             |    `-- Horizon
+    |             | -- ldirectord
     |-- Numerous programming languages.
     |        |-- Python
     |        |    |-- Multiprocessing
     |        |    |    `-- Written daemons, for numerous tasks, and data processing programs.
     |        |    |-- Daemon design and authoring.
     |        |    |-- 0mq via rabbitmq
+    |        |    |-- Some scapy
+    |        |    |-- Some exploit P.O.C
     |        |    |-- Some django
     |        |    `-- Some app engine
     |        |-- C++ /  C
@@ -101,22 +101,30 @@ Last updated 2013-04-11 (Incomplete)::
     |        |-- RST
     |        |    `-- restructured text, used for documentation via python-sphinx, write once and deploy to man pages, pdf, html etc.
     |        |-- Bash
+    |        |    |- TCP reverse shell payloads
     |        |    `-- "one liners", scripts etc.
     |        |-- TCL
     |        |    `-- expect syntax scripting to automate, sftp / ftp etc …
     |        |-- Ruby
     |        |    |-- Some experimentation with parallel programming
     |        |    `-- Some extension of MetaSploit
-    |-- Pentesting (At this time still reading into a lot of this)
+    |        |-- Markdown
+    |             `- used for blogging via jekyll + octopress
+    |-- Security / Netsec / Infosec
     |        |-- PTES
     |        |-- Metasploit
+    |        |    | - Used in pentest demoing issues with Tomcat 5
+    |        |    | - Used in conjunction with msfvenom for talk @ PLMCE: https://www.slideshare.net/DavidBusby1/plmce-security-and-why-you-need-to-review-yours
     |        |    `-- Some extension writing experience
     |        |-- Sql injection
+    |        |-- Command injection and custom exploitation, as per talk given: https://www.slideshare.net/DavidBusby1/security-and-why-you-need-to-review-yours
     |        |-- Maltego
     |        |-- WPA / WEP via Aircrack
     |        |-- SQLMap
     |        |-- Skipfish
     |        |-- Backtrack
+    |        |-- dsniff
+    |        |-- Suricata + logstash + Kibana @ http://blog.oneiroi.co.uk/ids/ips/security/visualization/kibana/logstash/suricata/arm/utilite/suricata-logstash-kibana-utilite-pro-arm/
     |        `-- Password hashing / lookups / Pass the hash.
     |-- Opensource contributions
         |-- Majority of source code can be found here https://github.com/Oneiroi
@@ -132,7 +140,7 @@ Last updated 2013-04-11 (Incomplete)::
 SEE ALSO
 ========
 
-* Email: <d.busby@saiweb.co.uk> / <oneiroi@fedoraproject.org>
-* Blog: http://blog.oneiroi.co.uk/ (formerly: http://saiweb.co.uk/)
+* Email: d.busby {at} oneiroi.co.uk / oneiroi {at} fedoraproject.org
+* Blog: http://blog.oneiroi.co.uk/
 
 
