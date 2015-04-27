@@ -14,7 +14,7 @@ SYNOPSIS
 DESCRIPTION
 ===========
 
-Security Lead / Sysadmin.
+Information Security Architect @ Percona
 
 EXAMPLES
 ========
