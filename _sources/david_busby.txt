@@ -81,9 +81,9 @@ Last updated 2014-05-20 (Incomplete)::
     |        |    |    `-- Written daemons, for numerous tasks, and data processing programs.
     |        |    |-- Daemon design and authoring.
     |        |    |-- 0mq via rabbitmq
-    |        |    |-- Some scapy
-    |        |    |-- Some exploit P.O.C
-    |        |    |-- Some django
+    |        |    |-- scapy
+    |        |    |-- Exploit P.O.C
+    |        |    |-- Django
     |        |    `-- Some app engine
     |        |-- C++ /  C
     |        |    `-- Linux api / php extensions / simple cli tools / email daemon
@@ -115,6 +115,7 @@ Last updated 2014-05-20 (Incomplete)::
     |        |-- Metasploit
     |        |    | - Used in pentest demoing issues with Tomcat 5
     |        |    | - Used in conjunction with msfvenom for talk @ PLMCE: https://www.slideshare.net/DavidBusby1/plmce-security-and-why-you-need-to-review-yours
+    |        |    | - CVE-2015-1027 
     |        |    `-- Some extension writing experience
     |        |-- Sql injection
     |        |-- Command injection and custom exploitation, as per talk given: https://www.slideshare.net/DavidBusby1/security-and-why-you-need-to-review-yours
