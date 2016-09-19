@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Recovering files using scalpel &mdash; oneiroi.github.com 1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="oneiroi.github.com 1 documentation" href="index.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="nav-item nav-item-0"><a href="index.html">oneiroi.github.com 1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="recovering-files-using-scalpel">
+<h1>Recovering files using scalpel<a class="headerlink" href="#recovering-files-using-scalpel" title="Permalink to this headline">¶</a></h1>
+<p>Usage: scalpel -c /path/to/config/file.conf -o /output_files_here /path/to/device</p>
+</div>
+<div class="section" id="for-files-not-in-your-conf">
+<h1>For files not in your .conf<a class="headerlink" href="#for-files-not-in-your-conf" title="Permalink to this headline">¶</a></h1>
+<p>Get header: xxd -l 0x04 /path/to/similar_file.ext
+Get footer: xxd -s -0x04 /path/to/similar_file.ext</p>
+<p>Compare multiple files to check for common header and footer data.</p>
+<div class="section" id="config-file-entry">
+<h2>Config file entry<a class="headerlink" href="#config-file-entry" title="Permalink to this headline">¶</a></h2>
+<p>qcow2    y    100000000    QFIxfb</p>
+<p>&lt;ext&gt;    &lt;case_sensitive y/n&gt;  &lt;max carve size in bytes&gt;    &lt;HEADER&gt;    &lt;FOOTER&gt;</p>
+<ul class="simple">
+<li>max carve can be a range denoting min:max or just min:</li>
+<li>header and footer may be specified as regex patterns using // delimeters.</li>
+<li>i&#8217;ve noted with qcow2 at least footer varies between images, as such I chose to forgo this.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="working-with-lvm">
+<h1>Working with LVM<a class="headerlink" href="#working-with-lvm" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li>pvscan: record VolGroup and size</li>
+<li>lvscan: record path matching VolGroup and size previous.</li>
+</ul>
+<p>i.e.</p>
+<p>scalpel -c /etc/qcow.conf -o /test /dev/vg_piwhhost2/lv_home</p>
+<p>Whilst this works it is far more sensible to boot using a live distro and cerate an image of this volume for processing off the device instead of &#8220;online&#8221; carving.</p>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Recovering files using scalpel</a></li>
+<li><a class="reference internal" href="#for-files-not-in-your-conf">For files not in your .conf</a><ul>
+<li><a class="reference internal" href="#config-file-entry">Config file entry</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#working-with-lvm">Working with LVM</a></li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/recover_files_using_scalpel.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="nav-item nav-item-0"><a href="index.html">oneiroi.github.com 1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2012, David Busby &lt;d.busby@saiweb.co.uk&gt;.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.6.
+    </div>
+  </body>
+</html>

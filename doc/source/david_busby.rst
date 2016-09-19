@@ -22,7 +22,7 @@ EXAMPLES
 Skills Tree
 -----------
 
-Last updated 2014-05-20 (Incomplete)::
+Last updated 2016-09-18 (Incomplete)::
 
      
     |-- Systems Administration
@@ -126,7 +126,11 @@ Last updated 2014-05-20 (Incomplete)::
     |        |-- Backtrack
     |        |-- dsniff
     |        |-- Suricata + logstash + Kibana @ http://blog.oneiroi.co.uk/ids/ips/security/visualization/kibana/logstash/suricata/arm/utilite/suricata-logstash-kibana-utilite-pro-arm/
-    |        `-- Password hashing / lookups / Pass the hash.
+    |        |-- Password hashing / lookups / Pass the hash.
+    |        |-- CISSP (581907 - https://webportal.isc2.org/custom/CertificationVerificationResults.aspx?FN=David&LN=Busby&CN=581907)
+    |        |-- PCI, HIPAA, CIS
+    |        |-- Vulnerability research though to Proof of Concept e.g. CVE-2015-1027
+    |        `-- Definition and establishing a security program
     |-- Opensource contributions
         |-- Majority of source code can be found here https://github.com/Oneiroi
         |-- Upstream commits
