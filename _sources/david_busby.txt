@@ -22,7 +22,7 @@ EXAMPLES
 Skills Tree
 -----------
 
-Last updated 2016-09-18 (Incomplete)::
+Last updated 2017-06-13 (Incomplete)::
 
      
     |-- Systems Administration
@@ -125,12 +125,25 @@ Last updated 2016-09-18 (Incomplete)::
     |        |-- Skipfish
     |        |-- Backtrack
     |        |-- dsniff
+    |        |-- Burp suite pro
     |        |-- Suricata + logstash + Kibana @ http://blog.oneiroi.co.uk/ids/ips/security/visualization/kibana/logstash/suricata/arm/utilite/suricata-logstash-kibana-utilite-pro-arm/
     |        |-- Password hashing / lookups / Pass the hash.
     |        |-- CISSP (581907 - https://webportal.isc2.org/custom/CertificationVerificationResults.aspx?FN=David&LN=Busby&CN=581907)
     |        |-- PCI, HIPAA, CIS
     |        |-- Vulnerability research though to Proof of Concept e.g. CVE-2015-1027
-    |        `-- Definition and establishing a security program
+    |        |-- Definition and establishing a security program (Policies, Baselines etc).
+    |        `-- Several Talks:
+    |            |- SlideShare: https://www.slideshare.net/DavidBusby1
+    |            |- Talk supporting material:
+    |            |    |- Github supporting code: https://github.com/Oneiroi/talks
+    |            |    |- TSA lockpicking: https://www.youtube.com/edit?o=U&video_id=zDPWoB7v15o
+    |            |    |- Live compromise, php, mysql, udf, metasploit, msfvenom: https://www.youtube.com/watch?v=e29kbX-rx0s
+    |            |    |- Malcious HID demo backup video: https://youtu.be/LYY9OI2HHvo
+    |            |    |- MySQL hash cracking using Hashcat backup video: https://youtu.be/sqEIhdITjkg https://youtu.be/A9kBpwSlbJw
+    |            |    `- SELinux sebool httpd_can_netowkr_connect backup video: https://youtu.be/BHm0Z-uUxBE
+    |            `- Youtube recording of talks given:
+    |                |- https://www.youtube.com/watch?v=dlcZyLVs5kE (Security Basics)
+    |                |- https://www.youtube.com/watch?v=WhPWqo_Ptqc (Security More thant just yoru Database!)
     |-- Opensource contributions
         |-- Majority of source code can be found here https://github.com/Oneiroi
         |-- Upstream commits
@@ -146,6 +159,6 @@ SEE ALSO
 ========
 
 * Email: d.busby {at} oneiroi.co.uk / oneiroi {at} fedoraproject.org
-* Blog: http://blog.oneiroi.co.uk/
+* Blog: https://blog.oneiroi.co.uk/
 
 

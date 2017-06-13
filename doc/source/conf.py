@@ -41,7 +41,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'oneiroi.github.com'
-copyright = u'2012, David Busby <d.busby@saiweb.co.uk>'
+copyright = u'2010-2017, David Busby <d.busby{at}oneiroi.co.uk>'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -184,7 +184,7 @@ latex_elements = {
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
   ('index', 'DavidBusby.tex', u'David Busby Documentation',
-   u'David Busby \\textless{}d.busby@saiweb.co.uk\\textgreater{}', 'manual'),
+   u'David Busby \\textless{}d.busby{at}oneiroi.co.uk\\textgreater{}', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -214,7 +214,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'davidbusby', u'David Busby Documentation',
-     [u'David Busby <d.busby@saiweb.co.uk>'], 1)
+     [u'David Busby <d.busby{at}oneiroi.co.uk>'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -228,7 +228,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'DavidBusby', u'David Busby Documentation',
-   u'David Busby <d.busby@saiweb.co.uk>', 'DavidBusby', 'One line description of project.',
+   u'David Busby <d.busby{at}oneiroi.co.uk>', 'DavidBusby', 'One line description of project.',
    'Miscellaneous'),
 ]
 
