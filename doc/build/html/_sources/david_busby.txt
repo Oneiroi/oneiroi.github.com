@@ -19,6 +19,14 @@ Information Security Architect @ Percona
 EXAMPLES
 ========
 
+Blog / Publications
+-------------------
+
+* https://blog.oneiroi.co.uk
+* https://www.percona.com/blog/author/david-busby/
+* http://www.dbta.com/Authors/David-Busby-7218.aspx
+* https://www.scmagazine.com/cybersecurity-made-simple/article/645639/
+
 Skills Tree
 -----------
 
