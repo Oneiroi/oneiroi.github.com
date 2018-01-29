@@ -152,6 +152,8 @@ Last updated 2017-06-13 (Incomplete)::
     |            `- Youtube recording of talks given:
     |                |- https://www.youtube.com/watch?v=dlcZyLVs5kE (Security Basics)
     |                |- https://www.youtube.com/watch?v=WhPWqo_Ptqc (Security More thant just yoru Database!)
+    |                |- https://www.youtube.com/watch?v=l2MDPuyEOQQ (What Every DBA needs to know about security)
+    |                `- https://www.youtube.com/watch?v=-floDucby0M (Web application security)
     |-- Opensource contributions
         |-- Majority of source code can be found here https://github.com/Oneiroi
         |-- Upstream commits
