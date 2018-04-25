@@ -151,6 +151,7 @@ Last updated 2017-06-13 (Incomplete)::
     |            |    |- MySQL hash cracking using Hashcat backup video: https://youtu.be/sqEIhdITjkg https://youtu.be/A9kBpwSlbJw
     |            |    `- SELinux sebool httpd_can_network_connect backup video: https://youtu.be/BHm0Z-uUxBE
     |            `- Youtube recording of talks given:
+    |                |- https://www.youtube.com/watch?v=l2MDPuyEOQQ (What every DBA Needs to Know About MySQL Security)
     |                |- https://www.youtube.com/watch?v=dlcZyLVs5kE (Security Basics)
     |                |- https://www.youtube.com/watch?v=WhPWqo_Ptqc (Security More thant just your Database!)
     |                `- https://www.youtube.com/watch?v=-floDucby0M (Web application security and why you should review yours - Stachka)
