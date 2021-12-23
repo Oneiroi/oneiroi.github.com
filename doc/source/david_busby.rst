@@ -136,7 +136,7 @@ Last updated 2017-06-13 (Incomplete)::
     |        |-- Burp suite pro
     |        |-- Suricata + logstash + Kibana @ http://blog.oneiroi.co.uk/ids/ips/security/visualization/kibana/logstash/suricata/arm/utilite/suricata-logstash-kibana-utilite-pro-arm/
     |        |-- Password hashing / lookups / Pass the hash.
-    |        |-- CISSP (581907 - https://webportal.isc2.org/custom/CertificationVerificationResults.aspx?FN=David&LN=Busby&CN=581907)
+    |        |-- CISSP (581907 - https://www.isc2.org/MemberVerification?LastName=Busby&MemberNumber=581907)
     |        |-- YPS tutor (NSRA)
     |        |-- PCI, HIPAA, CIS
     |        |-- Vulnerability research though to Proof of Concept e.g. CVE-2015-1027
