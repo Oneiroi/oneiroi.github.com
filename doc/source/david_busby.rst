@@ -22,19 +22,23 @@ EXAMPLES
 Blog / Publications
 -------------------
 
-* https://blog.oneiroi.co.uk
-* https://www.percona.com/blog/author/david-busby/
-* http://www.dbta.com/Authors/David-Busby-7218.aspx
-* https://www.scmagazine.com/cybersecurity-made-simple/article/645639/
+* https://blog.oneiroi.co.uk (personal blog, many articles within)
+* https://www.percona.com/blog/author/david-busby/ (mutliple posts)
+* https://www.dbta.com/Authors/David-Busby-7218.aspx (2 accepted articles)
+* https://www.scmagazine.com/news/network-security/cybersecurity-made-simple
 
 Skills Tree
 -----------
 
-Last updated 2017-06-13 (Incomplete)::
+Last updated 2022-05-11 (Incomplete)::
 
      
     |-- Systems Administration
-    |        |-- Logstash
+    |        |-- Ansible
+    |        |   |- Authored CIS baseline requirments in Ansible CFG managment for CentOS 7.x
+    |        |   `- Bespoke extension of ansible to procure system metrics for analysis.
+    |        |-- Systemtap (https://github.com/Oneiroi/sysadmin/tree/master/linux/systemtap) 
+    |        |-- Logstash 
     |        |-- Kibana
     |        |-- Elastic search
     |        |-- Suricata
@@ -88,7 +92,7 @@ Last updated 2017-06-13 (Incomplete)::
     |        |    |-- Multiprocessing
     |        |    |    `-- Written daemons, for numerous tasks, and data processing programs.
     |        |    |-- Daemon design and authoring.
-    |        |    |-- 0mq via rabbitmq
+    |        |    |-- 0mq
     |        |    |-- scapy
     |        |    |-- Exploit P.O.C
     |        |    |-- Django
@@ -119,6 +123,9 @@ Last updated 2017-06-13 (Incomplete)::
     |        |-- Markdown
     |             `- used for blogging via jekyll + octopress
     |-- Security / Netsec / Infosec
+    |        |-- CTF (Capture The Flag)
+    |        |    |- Curated puzzel material and deployed ctfd ~2019 for candidates technical assessment https://github.com/oneiroi/ctf
+    |        |    `- Wrote cimilar puzzel to one I' experienced during a Live CTF at 44con from the NCC Group creating my own version (from scratch: https://github.com/Oneiroi/ctf/tree/master/python/2.x/tcp_lock_challenge )
     |        |-- PTES
     |        |-- Metasploit
     |        |    | - Used in pentest demoing issues with Tomcat 5
@@ -126,6 +133,15 @@ Last updated 2017-06-13 (Incomplete)::
     |        |    | - CVE-2015-1027 
     |        |    `-- Some extension writing experience
     |        |-- Sql injection
+    |        |-- Malware authoring in python, go, bash
+    |        |-- RedTeam
+    |        |   |- Social engineering
+    |        |   |- Phishing, Vishing, Smishing, etc
+    |        |   |- C2
+    |        |   |- Adversarial emulation
+    |        |   |- Latteral movement, opportunistic exploitation
+    |        |   |- Living off the land
+    |        |   `- Social profile construction, impersonation
     |        |-- Command injection and custom exploitation, as per talk given: https://www.slideshare.net/DavidBusby1/security-and-why-you-need-to-review-yours
     |        |-- Maltego
     |        |-- WPA / WEP via Aircrack
@@ -141,6 +157,8 @@ Last updated 2017-06-13 (Incomplete)::
     |        |-- PCI, HIPAA, CIS
     |        |-- Vulnerability research though to Proof of Concept e.g. CVE-2015-1027
     |        |-- Definition and establishing a security program (Policies, Baselines etc).
+    |        |-- Curating responsible disclosure program, and promoting community contributions. 
+    |        |-- Slack bug bounty (share channel BETA, which later became SlackConnect: https://blog.oneiroi.co.uk/security/shared/channel/slack/beta/beta-functionality-still-needs-security-slack-and-shared-channels/)
     |        `-- Several Talks:
     |            |- SlideShare: https://www.slideshare.net/DavidBusby1
     |            |- Talk supporting material:
