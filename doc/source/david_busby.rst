@@ -36,7 +36,7 @@ Last updated 2022-05-11 (Incomplete)::
     |-- Systems Administration
     |        |-- Ansible
     |        |   |- Authored CIS baseline requirments in Ansible CFG managment for CentOS 7.x
-    |        |   `- Bespoke extension of ansible to procure system metrics for analysis.
+    |        |   `- Bespoke extension of ansible to procure system metrics for analysis.    
     |        |-- Systemtap (https://github.com/Oneiroi/sysadmin/tree/master/linux/systemtap) 
     |        |-- Logstash 
     |        |-- Kibana
@@ -171,7 +171,8 @@ Last updated 2022-05-11 (Incomplete)::
     |            `- Youtube recording of talks given:
     |                |- https://www.youtube.com/watch?v=dlcZyLVs5kE (Security Basics)
     |                |- https://www.youtube.com/watch?v=WhPWqo_Ptqc (Security More thant just your Database!)
-    |                `- https://www.youtube.com/watch?v=-floDucby0M (Web application security and why you should review yours - Stachka)
+    |                |- https://www.youtube.com/watch?v=-floDucby0M (Web application security and why you should review yours - Stachka)
+    |                `- https://www.youtube.com/watch?v=O0hisREEIpU (OSInt - Do You Really Know What Data You're Leaking ?)
     |-- Opensource contributions
         |-- Majority of source code can be found here https://github.com/Oneiroi
         |-- Upstream commits
@@ -180,13 +181,10 @@ Last updated 2022-05-11 (Incomplete)::
              |-- Libcloud
              `-- EPEL Openstack
 
-
-
-
 SEE ALSO
 ========
 
 * Email: d.busby {at} oneiroi.co.uk / oneiroi {at} fedoraproject.org
-* Blog: https://blog.oneiroi.co.uk/
+* Blog: https://blog.oneiroi.co.uk/2
 
 
