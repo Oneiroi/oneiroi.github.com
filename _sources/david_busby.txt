@@ -30,9 +30,12 @@ Blog / Publications
 Skills Tree
 -----------
 
-Last updated 2017-06-13 (Incomplete)::
+Last updated 2023-09-05 (Incomplete)::
 
-     
+    |-- Large Language Model Artificial Intellegence
+    |   |-- Prompt Engineering
+    |   `-- Prompt Hacking
+    |   
     |-- Systems Administration
     |        |-- Logstash
     |        |-- Kibana
@@ -47,7 +50,7 @@ Last updated 2017-06-13 (Incomplete)::
     |        |    |-- gitosis
     |        |    |-- github
     |        |    `-- Migration from subversion
-    |        |-- RHEL / CentOS / Fedora / Scientific Linux Administration
+    |        `-- RHEL / CentOS / Fedora / Scientific Linux Administration
     |             |-- RPM Packaging (spec authoring, mock builds etc ..)
     |             |-- EPEL Contributor for Openstack packages
     |             |-- Nginx
@@ -137,8 +140,12 @@ Last updated 2017-06-13 (Incomplete)::
     |        |-- Suricata + logstash + Kibana @ http://blog.oneiroi.co.uk/ids/ips/security/visualization/kibana/logstash/suricata/arm/utilite/suricata-logstash-kibana-utilite-pro-arm/
     |        |-- Password hashing / lookups / Pass the hash.
     |        |-- CISSP (581907 - https://webportal.isc2.org/custom/CertificationVerificationResults.aspx?FN=David&LN=Busby&CN=581907)
+    |        |-- Associate Certified Chief Information Security Officer (https://aspen.eccouncil.org/Verify Enter name David Busby, Certificate number ECC6504319782)
     |        |-- YPS tutor (NSRA)
-    |        |-- PCI, HIPAA, CIS
+    |        |-- PCI, HIPAA, CIS, SOC2, GDPR, ISO27001
+    |        |-- Vendor Management
+    |        |-- Risk Management
+    |        |-- Programm management
     |        |-- Vulnerability research though to Proof of Concept e.g. CVE-2015-1027
     |        |-- Definition and establishing a security program (Policies, Baselines etc).
     |        `-- Several Talks:
@@ -154,7 +161,8 @@ Last updated 2017-06-13 (Incomplete)::
     |                |- https://www.youtube.com/watch?v=l2MDPuyEOQQ (What every DBA Needs to Know About MySQL Security)
     |                |- https://www.youtube.com/watch?v=dlcZyLVs5kE (Security Basics)
     |                |- https://www.youtube.com/watch?v=WhPWqo_Ptqc (Security More thant just your Database!)
-    |                `- https://www.youtube.com/watch?v=-floDucby0M (Web application security and why you should review yours - Stachka)
+    |                |- https://www.youtube.com/watch?v=-floDucby0M (Web application security and why you should review yours - Stachka)
+    |                `- https://youtu.be/O0hisREEIpU?si=8RKKnqw1qVzUNUk3 (OSINT - Do YoU Really Know What Data You're Leaking?)
     |-- Opensource contributions
         |-- Majority of source code can be found here https://github.com/Oneiroi
         |-- Upstream commits
