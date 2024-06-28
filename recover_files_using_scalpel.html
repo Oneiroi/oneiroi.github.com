@@ -1,19 +1,17 @@
-
 <!DOCTYPE html>
 
-<html>
+<html lang="en" data-content_root="./">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Recovering files using scalpel &#8212; oneiroi.github.com 1 documentation</title>
-    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="_static/classic.css" />
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="_static/classic.css?v=def86cc0" />
     
-    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
-    <script src="_static/jquery.js"></script>
-    <script src="_static/underscore.js"></script>
-    <script src="_static/doctools.js"></script>
+    <script src="_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" /> 
@@ -35,16 +33,16 @@
           <div class="body" role="main">
             
   <section id="recovering-files-using-scalpel">
-<h1>Recovering files using scalpel<a class="headerlink" href="#recovering-files-using-scalpel" title="Permalink to this headline">¶</a></h1>
+<h1>Recovering files using scalpel<a class="headerlink" href="#recovering-files-using-scalpel" title="Link to this heading">¶</a></h1>
 <p>Usage: scalpel -c /path/to/config/file.conf -o /output_files_here /path/to/device</p>
 </section>
 <section id="for-files-not-in-your-conf">
-<h1>For files not in your .conf<a class="headerlink" href="#for-files-not-in-your-conf" title="Permalink to this headline">¶</a></h1>
+<h1>For files not in your .conf<a class="headerlink" href="#for-files-not-in-your-conf" title="Link to this heading">¶</a></h1>
 <p>Get header: xxd -l 0x04 /path/to/similar_file.ext
 Get footer: xxd -s -0x04 /path/to/similar_file.ext</p>
 <p>Compare multiple files to check for common header and footer data.</p>
 <section id="config-file-entry">
-<h2>Config file entry<a class="headerlink" href="#config-file-entry" title="Permalink to this headline">¶</a></h2>
+<h2>Config file entry<a class="headerlink" href="#config-file-entry" title="Link to this heading">¶</a></h2>
 <p>qcow2    y    100000000    QFIxfb</p>
 <p>&lt;ext&gt;    &lt;case_sensitive y/n&gt;  &lt;max carve size in bytes&gt;    &lt;HEADER&gt;    &lt;FOOTER&gt;</p>
 <ul class="simple">
@@ -55,7 +53,7 @@ Get footer: xxd -s -0x04 /path/to/similar_file.ext</p>
 </section>
 </section>
 <section id="working-with-lvm">
-<h1>Working with LVM<a class="headerlink" href="#working-with-lvm" title="Permalink to this headline">¶</a></h1>
+<h1>Working with LVM<a class="headerlink" href="#working-with-lvm" title="Link to this heading">¶</a></h1>
 <ul class="simple">
 <li><p>pvscan: record VolGroup and size</p></li>
 <li><p>lvscan: record path matching VolGroup and size previous.</p></li>
@@ -91,7 +89,7 @@ Get footer: xxd -s -0x04 /path/to/similar_file.ext</p>
             rel="nofollow">Show Source</a></li>
     </ul>
    </div>
-<div id="searchbox" style="display: none" role="search">
+<search id="searchbox" style="display: none" role="search">
   <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="search.html" method="get">
@@ -99,8 +97,8 @@ Get footer: xxd -s -0x04 /path/to/similar_file.ext</p>
       <input type="submit" value="Go" />
     </form>
     </div>
-</div>
-<script>$('#searchbox').show(0);</script>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
         </div>
       </div>
       <div class="clearer"></div>
@@ -116,8 +114,8 @@ Get footer: xxd -s -0x04 /path/to/similar_file.ext</p>
       </ul>
     </div>
     <div class="footer" role="contentinfo">
-        &#169; Copyright 2010-2017, David Busby &lt;d.busby{at}oneiroi.co.uk&gt;.
-      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.5.0.
+    &#169; Copyright 2010-2017, David Busby &lt;d.busby{at}oneiroi.co.uk&gt;.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.3.7.
     </div>
   </body>
 </html>
