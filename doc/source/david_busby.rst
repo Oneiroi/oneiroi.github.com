@@ -14,7 +14,7 @@ SYNOPSIS
 DESCRIPTION
 ===========
 
-Information Security Architect @ Percona
+Senior Systems Reliability Engineer, DevSecOps @ Quiq
 
 EXAMPLES
 ========
@@ -22,7 +22,7 @@ EXAMPLES
 Blog / Publications
 -------------------
 
-* https://blog.oneiroi.co.uk (personal blog, many articles within)
+* https://blog.oneiroi.co.uk (personal blog, many articles within, mostly archive at this moment in time)
 * https://www.percona.com/blog/author/david-busby/ (mutliple posts)
 * https://www.dbta.com/Authors/David-Busby-7218.aspx (2 accepted articles)
 * https://www.scmagazine.com/news/network-security/cybersecurity-made-simple
@@ -30,7 +30,7 @@ Blog / Publications
 Skills Tree
 -----------
 
-Last updated 2022-05-11 (Incomplete)::
+Last updated 2024-11-01 (Incomplete)::
 
      
     |-- Systems Administration
@@ -124,8 +124,8 @@ Last updated 2022-05-11 (Incomplete)::
     |             `- used for blogging via jekyll + octopress
     |-- Security / Netsec / Infosec
     |        |-- CTF (Capture The Flag)
-    |        |    |- Curated puzzel material and deployed ctfd ~2019 for candidates technical assessment https://github.com/oneiroi/ctf
-    |        |    `- Wrote cimilar puzzel to one I' experienced during a Live CTF at 44con from the NCC Group creating my own version (from scratch: https://github.com/Oneiroi/ctf/tree/master/python/2.x/tcp_lock_challenge )
+    |        |    |- Curated puzzle material and deployed ctfd ~2019 for candidates technical assessment https://github.com/oneiroi/ctf
+    |        |    `- Wrote similar puzzle to one I' experienced during a Live CTF at 44con from the NCC Group creating my own version (from scratch: https://github.com/Oneiroi/ctf/tree/master/python/2.x/tcp_lock_challenge )
     |        |-- PTES
     |        |-- Metasploit
     |        |    | - Used in pentest demoing issues with Tomcat 5
@@ -141,7 +141,7 @@ Last updated 2022-05-11 (Incomplete)::
     |        |   |- Adversarial emulation
     |        |   |- Latteral movement, opportunistic exploitation
     |        |   |- Living off the land
-    |        |   `- Social profile construction, impersonation
+    |        |   `- Social profile construction, impersonation, Open Source Intellegence
     |        |-- Command injection and custom exploitation, as per talk given: https://www.slideshare.net/DavidBusby1/security-and-why-you-need-to-review-yours
     |        |-- Maltego
     |        |-- WPA / WEP via Aircrack
@@ -153,17 +153,21 @@ Last updated 2022-05-11 (Incomplete)::
     |        |-- Suricata + logstash + Kibana @ http://blog.oneiroi.co.uk/ids/ips/security/visualization/kibana/logstash/suricata/arm/utilite/suricata-logstash-kibana-utilite-pro-arm/
     |        |-- Password hashing / lookups / Pass the hash.
     |        |-- CISSP (581907 - https://www.isc2.org/MemberVerification?LastName=Busby&MemberNumber=581907)
+    |        |-- C|CISSO (Candidate Name:David Busby Certification Number:ECC6504319782 - https://aspen.eccouncil.org/Verify)
     |        |-- YPS tutor (NSRA)
-    |        |-- PCI, HIPAA, CIS
+    |        |-- SOC 2, ISO27001, PCI, HIPAA, CIS
     |        |-- Vulnerability research though to Proof of Concept e.g. CVE-2015-1027
     |        |-- Definition and establishing a security program (Policies, Baselines etc).
     |        |-- Curating responsible disclosure program, and promoting community contributions. 
     |        |-- Slack bug bounty (share channel BETA, which later became SlackConnect: https://blog.oneiroi.co.uk/security/shared/channel/slack/beta/beta-functionality-still-needs-security-slack-and-shared-channels/)
+    |        |-- YARA (authored rules to work within OSQuery)
+    |        |-- OSQuery (advanced experience, inc ATC)
+    |        |-- MacOS systems administration, osquery extension through ATC
     |        `-- Several Talks:
     |            |- SlideShare: https://www.slideshare.net/DavidBusby1
     |            |- Talk supporting material:
     |            |    |- Github supporting code: https://github.com/Oneiroi/talks
-    |            |    |- TSA lockpicking: https://www.youtube.com/edit?o=U&video_id=zDPWoB7v15o
+    |            |    |- TSA lock - lockpicking: https://www.youtube.com/edit?o=U&video_id=zDPWoB7v15o
     |            |    |- Live compromise, php, mysql, udf, metasploit, msfvenom: https://www.youtube.com/watch?v=e29kbX-rx0s
     |            |    |- Malcious HID demo backup video: https://youtu.be/LYY9OI2HHvo
     |            |    |- MySQL hash cracking using Hashcat backup video: https://youtu.be/sqEIhdITjkg https://youtu.be/A9kBpwSlbJw
@@ -185,6 +189,6 @@ SEE ALSO
 ========
 
 * Email: d.busby {at} oneiroi.co.uk / oneiroi {at} fedoraproject.org
-* Blog: https://blog.oneiroi.co.uk/2
+* Blog: https://blog.oneiroi.co.uk/
 
 
